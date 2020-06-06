@@ -1,0 +1,163 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+ }
+
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ }
+
+ body {
+   font-size: 15px;
+   font-family: 'Poppins', sans-serif;
+   color:  hsl(234, 12%, 34%);
+   font-weight: 400;
+ }
+
+ .boxes {
+   position: relative;
+ }
+
+ .boxes-row {
+   width: 25%;
+   padding: 20px 0 10px 30px;
+   display: inline-block;
+   margin-right: 10px;
+   border-radius: 10px;
+   box-shadow: 0px 5px 25px 5px hsl(234, 12%, 90%);
+ }
+
+ .boxes-intro {
+   width: 90%;
+ }
+
+.first {
+  position: absolute;
+  top: 220px;
+  left: 115px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.second {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  position: absolute;
+  top: 40px;
+  left: 555px;
+}
+
+.third {
+  border-top: 5px solid  hsl(34, 97%, 64%);
+  position: absolute;
+  top: 375px;
+  right: 540px;
+}
+
+.fourth {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  position: absolute;
+  top: 220px;
+  right: 95px;
+}
+
+h1 {
+   width: 30%;
+   text-align: center;
+   margin: 15px auto 10px;
+   padding-top: 40px;
+   font-weight: 200;
+   color: hsl(229, 6%, 50%);
+ }
+
+ h2 {
+   width: 50%;
+ }
+
+ .intro {
+   width: 35%;
+   text-align: center;
+   margin: 15px auto 50px;
+   color: hsl(229, 6%, 66%);
+ }
+
+ span {
+   font-weight: 600;
+   line-height: 1.5;
+   color: hsl(234, 12%, 34%);
+ }
+
+ img {
+   margin: 25px 5px 15px 250px;
+ }
+
+footer {
+  position: relative;
+  top: 750px;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+
+  body {
+    text-align: center;
+  }
+
+  .boxes {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .boxes-row {
+    width: 80%;
+    padding: 20px 0 10px 30px;
+    display: block;
+    border-radius: 10px;
+    text-align: left;
+  }
+
+  .boxes-intro {
+    width: 100%;
+  }
+
+ .first {
+   top: 0px;
+   left: 30px;
+ }
+
+ .second {
+   top: 310px;
+   left: 30px;
+ }
+
+ .third {
+   top: 615px;
+   left: 30px;
+ }
+
+ .fourth {
+   top: 915px;
+   left: 30px;
+ }
+
+ h1 {
+    width: 100%;
+  }
+
+  h2 {
+    width: 100%;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  img {
+    margin: 25px 5px 15px 210px;
+  }
+
+ footer {
+   position: relative;
+   top: 1200px;
+ }
+}
